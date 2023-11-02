@@ -1,0 +1,172 @@
+*{
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+}
+.cabeçalho{
+    background-color: #fcf4f4;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin: 1;
+    grid-template-areas:
+    "telefone endereço pesquisa bt";
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1f;
+
+}   
+   /* HEADER */
+   .cabeçalho{
+    background-color: #fcf7f7;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+
+} 
+.pin_local {
+    margin-left: 100px;
+    
+}
+.endereco{
+    color: #59595a;
+    font: 11px "Open Sans";
+    margin-right: 55px;
+    margin-left: -165px;
+}
+.pin_tel {
+    margin-right: 100px;
+    margin-left: -25px;
+}
+.telefone{
+    color: #59595a;
+    font: 11px "Open Sans";
+    margin-right: 15px;
+    margin-left: -85px;
+} 
+.pesquisa{
+    padding: 6px 12px;
+    background-color: #f7f7f7; 
+    margin-right: -225px;
+    color: #f7f7f7;
+    border: 1px solid #eee;
+
+}
+.botao{
+    padding: 4px 40px;
+    background-color: #30aaa0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-right: -105px;
+    margin-left: -150px;
+} 
+
+.telefone{
+    grid-area: telefone;
+    
+}
+.endereco{
+    grid-area: endereço;
+    
+}
+.pesquisa{
+    grid-area: pesquisa;
+}
+#icon-loca{
+    padding: 20px;
+}
+.bt{
+    grid-area: bt;
+
+  
+}
+.menu__nav{
+    background-color: #201c54;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: 
+    "item1 item2 item3 item4 item5 item6";
+
+    grid-template-columns: 1fr 1fr 1f 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-family:'Open Sans', sans-serif;
+    font-size: px;
+}
+.menu1{
+    grid-area: item1;
+}
+.menu2{
+    grid-area: item2;
+    background-color: #201c54;
+   
+}
+
+
+#menu-h li {
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    color: #fff;
+}
+#nenu-h li a{
+    display: inline;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    
+}
+.grid{
+    width: 100%;
+    height: 100%;
+    background-color: #201c54;
+    display: grid;
+    grid-template-areas:
+    "links  contatos acreditação ONA";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr
+}
+
+.menu__ul {
+    color: #fff;
+    text-decoration: none;
+}
+a{
+     color: #fff;
+     text-decoration: none;
+     font-size: 12px;
+     font-family:'Open Sans', sans-serif ;
+}
+#btp{
+    display: flex;
+    align-items: center;
+    background-color: #34aca4;
+    height: 25px;
+    width: 150px;
+    color: #fff;
+    text-align: center;
+    
+}
+.footer{
+    background-color:#84b4ac; 
+    display: flex;
+    text-align: center;
+    height: 20ox;
+    color: #fff;
+}
+span:hover {
+ color: #34aca4;
+    
+  }
+  .links_box{
+    list-style: none;
+  }
+  p{
+    font-size: 11px;
+  }
+
+  
